@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
 .navigation {
     position: absolute;
     top: 0px;
@@ -7,7 +11,7 @@
 
 .search {
     position: relative;
-    top: 200px;
+    top: 25vh;
     display: flex;
     justify-content: center;
 }
@@ -19,10 +23,28 @@ form {
 }
 
 .text {
-    width: 500px;
-    margin: 10px;
+    width: 700px;
+    height: 45px;
+    margin: 20px;
+    border: 2px solid rgba(170, 165, 165, 0.294);
+    border-radius: 30px;
 }
 
 .button {
-    width: 200px;
+    height: 50px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 22px;
+    background-color: #f8f9fa;
+    border: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.button:hover {
+    border: 1px solid rgb(219, 219, 219);
+}
+
+img {
+    margin: 15px;
 }
