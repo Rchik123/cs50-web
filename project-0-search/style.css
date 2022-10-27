@@ -6,7 +6,17 @@ body {
     position: absolute;
     top: 0px;
     right: 0px;
-    margin: 20px;
+    margin: 30px;
+}
+
+.navigation > a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px;
+}
+
+.navigation > a:hover {
+    text-decoration: underline;
 }
 
 .search {
@@ -17,7 +27,7 @@ body {
 }
 
 form {
-    /*position: relative;*/
+    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -30,6 +40,7 @@ form {
     border: 2px solid rgba(170, 165, 165, 0.294);
     border-radius: 30px;
     font-size: 17px;
+    padding-left: 60px;
 }
 
 .text:focus {
@@ -60,10 +71,9 @@ img {
     margin: 15px;
 }
 
-/*
+
 .search-icon {
     position: absolute;
-    top: 61%;
     left: 20px;
+    top: 230px;
 }
-/*
