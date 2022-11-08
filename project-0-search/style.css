@@ -54,10 +54,10 @@ form {
 
 .button {
     height: 50px;
-    width: 300px;
+    width: 250px;
     margin: 10px;
     border-radius: 10px;
-    font-size: 22px;
+    font-size: 21px;
     background-color: #f8f9fa;
     border: 0px;
     font-family: Arial, sans-serif;
@@ -67,13 +67,25 @@ form {
     border: 1px solid rgb(219, 219, 219);
 }
 
-img {
-    margin: 15px;
+.logo {
+    position: relative;
 }
 
+img {
+    margin: 10px;
+}
+
+label {
+    color: #4285f4;
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+    font-size: 22px;
+}
 
 .search-icon {
+    focusable: false;
     position: absolute;
-    left: 20px;
+    left: 25px;
     top: 230px;
 }
