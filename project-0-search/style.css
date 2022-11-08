@@ -41,6 +41,11 @@ form {
     border-radius: 30px;
     font-size: 17px;
     padding-left: 60px;
+    background-image: url(images/search-icon.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 10px;
 }
 
 .text:focus {
@@ -81,11 +86,4 @@ label {
     bottom: 30px;
     right: 25px;
     font-size: 22px;
-}
-
-.search-icon {
-    focusable: false;
-    position: absolute;
-    left: 25px;
-    top: 230px;
 }
