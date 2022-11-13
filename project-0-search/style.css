@@ -80,10 +80,48 @@ img {
     margin: 10px;
 }
 
-label {
+.image-label {
     color: #4285f4;
     position: absolute;
     bottom: 25px;
     right: 21px;
     font-size: 30px;
 }
+
+.advanced-search-label {
+    color: #d93025;
+    font-size: 26px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    margin: 40px;
+}
+
+hr {
+    border: 1px solid #ebebeb;
+    position: relative;
+    top: 125px;
+    width: 100%;
+}
+
+.advanced-search {
+    position: absolute;
+    top: 160px;
+    left: 70px;
+}
+
+.advanced-form {
+   justify-content: left;
+   align-items: normal;
+}
+
+.advanced-form > div {
+    margin-top: 30px;
+}
+
+span {
+    font-size: 22px;
+    color: #333
+}
+
+
