@@ -37,10 +37,11 @@ body {
     width: 700px;
     height: 45px;
     margin: 20px;
-    font-size: 17px;
+    padding-left: 60px;
+    font-size: 18px;
+    font-family: arial, sans-serif;
     border: 2px solid rgba(170, 165, 165, 0.294);
     border-radius: 30px;
-    padding-left: 60px;
     background-image: url(images/search-icon.png);
     background-size: 30px;
     background-repeat: no-repeat;
@@ -119,7 +120,7 @@ body {
     bottom: 0px;
     right: 0px;
     margin-bottom: 30px;
-    margin-right: 1px;
+    margin-right: 3px;
     width: 150px;
     height: 45px;
     font-size: 15px;
@@ -127,6 +128,11 @@ body {
     border: 1px solid #3079ed;
     background-color: #4d90fe;
     color: white;
+}
+
+.advanced-button:hover {
+    background-color: #357ae8;
+    background-image: -moz-linear-gradient(top,#4d90fe,#357ae8);
 }
 
 .advanced-input-container > label {
@@ -137,8 +143,20 @@ body {
 }
 
 .advanced-input-container > input {
-    width: 70%;
-    height: 50px;
+    width: 69%;
+    height: 45px;
+    padding-left: 1%;
+    border: 1px solid #d9d9d9;
+    border-radius: 1px;
+    border-top: 1px solid #c0c0c0;
+    font-size: 19px;
+    font-family: arial, sans-serif;
+}
+
+.advanced-input-container > input:focus {
+    border: 1px solid #4d90fe;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
 }
 
 .advanced-top-hr {
