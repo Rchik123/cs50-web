@@ -102,12 +102,12 @@ body {
     top: 160px;
     left: 70px;
     display: inline-block;
-    width: 80%;
+    width: 70%;
 }
 
-.advanced-form {
-   justify-content: left;
-   align-items: normal;
+.advanced-find-label {
+    font-size: 22px;
+    color: #333
 }
 
 .advanced-form > div {
@@ -119,6 +119,7 @@ body {
     bottom: 0px;
     right: 0px;
     margin-bottom: 30px;
+    margin-right: 1px;
     width: 150px;
     height: 45px;
     font-size: 15px;
@@ -128,15 +129,29 @@ body {
     color: white;
 }
 
-hr {
-    border: 1px solid #ebebeb;
-    margin-top: 50px;
-    width: 100%;
+.advanced-input-container > label {
+    display: inline-block;
+    width: 20%;
+    margin-right: 9%;
+    font-size: 21px;
 }
 
-span {
-    font-size: 22px;
-    color: #333
+.advanced-input-container > input {
+    width: 70%;
+    height: 50px;
+}
+
+.advanced-top-hr {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid #ebebeb;
+}
+
+.advanced-bottom-hr {
+    width: 100%;
+    margin-top: 100px;
+    border: 1px solid #ebebeb;
 }
 
 
