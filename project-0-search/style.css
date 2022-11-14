@@ -10,36 +10,36 @@ body {
 }
 
 .navigation > a {
-    text-decoration: none;
+    margin: 10px;
     color: inherit;
-    padding: 10px;
+    text-decoration: none;
 }
 
 .navigation > a:hover {
     text-decoration: underline;
 }
 
-.search {
+.google-search {
     position: relative;
     top: 25vh;
     display: flex;
     justify-content: center;
 }
 
-form {
+.google-form {
     position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.text {
+.google-textfield {
     width: 700px;
     height: 45px;
     margin: 20px;
+    font-size: 17px;
     border: 2px solid rgba(170, 165, 165, 0.294);
     border-radius: 30px;
-    font-size: 17px;
     padding-left: 60px;
     background-image: url(images/search-icon.png);
     background-size: 30px;
@@ -48,66 +48,61 @@ form {
     background-position-x: 10px;
 }
 
-.text:focus {
+.google-textfield:focus {
     outline: none;
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }
 
-.text:hover {
+.google-textfield:hover {
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
 }  
 
-.button {
-    height: 50px;
+.google-button {
     width: 250px;
+    height: 50px;
     margin: 10px;
+    border: 0px;
     border-radius: 10px;
     font-size: 21px;
-    background-color: #f8f9fa;
-    border: 0px;
     font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
 }
 
-.button:hover {
+.google-button:hover {
     border: 1px solid rgb(219, 219, 219);
 }
 
-.logo {
+.google-logo {
     position: relative;
 }
 
-img {
+.google-image{
     margin: 10px;
 }
 
-.image-label {
-    color: #4285f4;
+.google-image-label {
     position: absolute;
     bottom: 25px;
     right: 21px;
     font-size: 30px;
+    color: #4285f4;
 }
 
 .advanced-search-label {
-    color: #d93025;
-    font-size: 26px;
     position: absolute;
     top: 30px;
     left: 30px;
     margin: 40px;
-}
-
-hr {
-    border: 1px solid #ebebeb;
-    position: relative;
-    top: 125px;
-    width: 100%;
+    font-size: 26px;
+    color: #d93025;
 }
 
 .advanced-search {
     position: absolute;
     top: 160px;
     left: 70px;
+    display: inline-block;
+    width: 80%;
 }
 
 .advanced-form {
@@ -117,6 +112,26 @@ hr {
 
 .advanced-form > div {
     margin-top: 30px;
+}
+
+.advanced-button {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #3079ed;
+    background-color: #4d90fe;
+    color: white;
+}
+
+hr {
+    border: 1px solid #ebebeb;
+    margin-top: 50px;
+    width: 100%;
 }
 
 span {
