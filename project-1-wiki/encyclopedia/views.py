@@ -15,5 +15,6 @@ def entry(request, title):
         return render(request, "encyclopedia/entrynf.html")
     else:
         return render(request, "encyclopedia/entry.html", {
-            "entry": entry
+            "entry": entry,
+            "title": title
         })
