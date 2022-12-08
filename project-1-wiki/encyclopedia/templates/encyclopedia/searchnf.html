@@ -5,7 +5,11 @@
 {% endblock %}
 
 {% block body %}
-    <h1>Search Results:</h1>
+    {% if titles %}
+        <h1>Search results:</h1>
+    {% else %}
+        <h1>No results found:</h1>
+    {% endif %}
 
     <ul>
         {% for title in titles %}
