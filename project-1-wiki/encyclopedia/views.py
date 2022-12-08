@@ -9,15 +9,14 @@ def index(request):
     })
 
 def search(request):
-    print("asd")
     if request.method == "GET":
-        input = request.GET.get("q", "")
-        entry = util.get_entry(input)
+        title = request.GET.get("q")
+        entry = util.get_entry(title)
         if entry is None:
             titles = []
             entries = util.list_entries()
             for e in entries:
-                if e.__contains__(input):
+                if e.__contains__(title):
                     titles.append(e)
             return render(request, "encyclopedia/searchnf.html", {
                 "titles": titles
